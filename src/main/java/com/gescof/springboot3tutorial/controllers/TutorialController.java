@@ -13,10 +13,12 @@ import java.util.List;
 public class TutorialController {
     @GetMapping("/greet")
     public TutorialResponse getTutorialResponse() {
-        return new TutorialResponse(
-                "Hello",
-                List.of("Java", "Python"),
-                new Person("Guille")
-        );
+        return TutorialResponse.builder()
+                .greet("Hello")
+                .programmingLanguages(List.of("Java", "Python"))
+                .person(Person.builder()
+                        .name("Guille")
+                        .build())
+                .build();
     }
 }
