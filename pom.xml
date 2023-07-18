@@ -14,6 +14,11 @@
     <name>spring-boot-3-tutorial</name>
     <description>spring-boot-3-tutorial</description>
 
+    <scm>
+        <connection>scm:git:https://github.com/Gescof/spring-boot-3-tutorial.git</connection>
+        <url>https://github.com/Gescof/spring-boot-3-tutorial.git</url>
+    </scm>
+
     <properties>
         <java.version>17</java.version>
     </properties>
