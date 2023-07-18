@@ -10,14 +10,14 @@
 
     <groupId>com.gescof</groupId>
     <artifactId>spring-boot-3-tutorial</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <name>spring-boot-3-tutorial</name>
     <description>spring-boot-3-tutorial</description>
 
     <scm>
         <connection>scm:git:https://github.com/Gescof/spring-boot-3-tutorial.git</connection>
         <url>https://github.com/Gescof/spring-boot-3-tutorial.git</url>
-      <tag>spring-boot-3-tutorial-1.0.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <properties>
